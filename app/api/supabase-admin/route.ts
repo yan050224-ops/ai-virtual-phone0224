@@ -1,5 +1,3 @@
-export const runtime = "edge";
-
 export async function GET() {
   return new Response(JSON.stringify({ok: false, error: "disabled on static deploy"}), {
     status: 200,
